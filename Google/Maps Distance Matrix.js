@@ -1,11 +1,3 @@
-/*
-Script Include used to plan Wot's based on incidendents and pons.
-Stories:
--STRY0011002 - WM mbv gps coördinaten suggestie geven welke WOT als volgende WOT
--STRY0011022 - WM - Berekenen estimated travel time voor Workorder die assigned z
-Created by René de Leeuw - Paphos Group
- */
-
 var TTS_WotGeoLocationPlanning = Class.create();
 TTS_WotGeoLocationPlanning.prototype = {
 	initialize: function() {
